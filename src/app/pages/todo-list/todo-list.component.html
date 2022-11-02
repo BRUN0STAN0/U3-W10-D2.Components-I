@@ -1,0 +1,79 @@
+<mat-list role="list">
+  <div class="input-add">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Write something todo</mat-label>
+      <input matInput type="text" placeholder="digit your item to add" />
+    </mat-form-field>
+    <button class="button-input" mat-raised-button color="basic">ADD</button>
+  </div>
+  <mat-list-item role="listitem">
+    <div class="list-items">
+      <div class="li-item">
+        <div class="li-text">Item 1</div>
+        <div class="li-button">
+          <button (click)="taskDone($event)" mat-raised-button color="primary">
+            V
+          </button>
+          <button (click)="taskDelete($event)" mat-raised-button color="warn">
+            X
+          </button>
+        </div>
+      </div>
+      <div class="li-item">
+        <div class="li-text">Item 2</div>
+        <div class="li-button">
+          <button (click)="taskDone($event)" mat-raised-button color="primary">
+            V
+          </button>
+          <button (click)="taskDelete($event)" mat-raised-button color="warn">
+            X
+          </button>
+        </div>
+      </div>
+      <div class="li-item">
+        <div class="li-text">Item 3</div>
+        <div class="li-button">
+          <button (click)="taskDone($event)" mat-raised-button color="primary">
+            V
+          </button>
+          <button (click)="taskDelete($event)" mat-raised-button color="warn">
+            X
+          </button>
+        </div>
+      </div>
+      <div class="li-item">
+        <div class="li-text">Item 4</div>
+        <div class="li-button">
+          <button (click)="taskDone($event)" mat-raised-button color="primary">
+            V
+          </button>
+          <button (click)="taskDelete($event)" mat-raised-button color="warn">
+            X
+          </button>
+        </div>
+      </div>
+      <div class="li-item">
+        <div class="li-text">Item 5</div>
+        <div class="li-button">
+          <button (click)="taskDone($event)" mat-raised-button color="primary">
+            V
+          </button>
+          <button (click)="taskDelete($event)" mat-raised-button color="warn">
+            X
+          </button>
+        </div>
+      </div>
+      <div class="li-item">
+        <div class="li-text">Item 6</div>
+        <div class="li-button">
+          <button (click)="taskDone($event)" mat-raised-button color="primary">
+            V
+          </button>
+          <button (click)="taskDelete($event)" mat-raised-button color="warn">
+            X
+          </button>
+        </div>
+      </div>
+    </div>
+  </mat-list-item>
+</mat-list>

@@ -1,0 +1,28 @@
+.list-items {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+  .li-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .li-text {
+      font-weight: 700;
+      font-size: 17px;
+    }
+  }
+}
+
+.input-add {
+  display: flex;
+  .example-full-width {
+    width: 100%;
+  }
+  .button-input {
+    height: 50px;
+    width: 170px;
+  }
+}

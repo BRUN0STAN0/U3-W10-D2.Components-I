@@ -1,0 +1,11 @@
+.example-form {
+  display: flex;
+  flex-direction: column;
+}
+.signup {
+  margin-top: 20px;
+  text-align: center;
+  a {
+    color: red;
+  }
+}
